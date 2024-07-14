@@ -65,7 +65,7 @@ sorted_baby_names = quicksort(unique_baby_names)
 print(f"Sorted Baby Names: {sorted_baby_names}")
 
 # Example usage of binary search
-target_name = "Emily"
+target_name = "David"
 index = binary_search(sorted_baby_names, target_name)
 if index != -1:
     print(f"Name '{target_name}' found at index {index}.")
